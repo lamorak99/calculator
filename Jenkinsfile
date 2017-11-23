@@ -7,5 +7,10 @@ pipeline {
                     sh "./mvnw clean package"
                }
           }
-     }
+          stage("Unit test") {
+               steps {
+                    sh "./mvnw test"
+               }
+          }
+	 }
 }
