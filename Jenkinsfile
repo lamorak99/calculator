@@ -17,5 +17,10 @@ pipeline {
 				sh './mvnw verify'
 			}
 		  }
+		  stage("Package") {
+			steps {
+				sh "./mvnw package"
+			}
+		  }
 	 }
 }
