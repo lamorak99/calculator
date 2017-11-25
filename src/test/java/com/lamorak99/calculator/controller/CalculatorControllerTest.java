@@ -1,4 +1,4 @@
-package com.lamorak99.calculator;
+package com.lamorak99.calculator.controller;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,10 +6,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.lamorak99.calculator.controller.CalculatorController;
-
 @RunWith(SpringRunner.class)
-public class CalculatorApplicationTest {
+public class CalculatorControllerTest {
 	
 	@Test
 	public void sum() {
@@ -22,5 +20,4 @@ public class CalculatorApplicationTest {
 		CalculatorController controller = new CalculatorController();
 		assertEquals(6, controller.multiply(2, 3));
 	}
-
 }

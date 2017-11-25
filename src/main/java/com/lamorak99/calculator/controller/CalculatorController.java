@@ -1,4 +1,4 @@
-package com.lamorak99.calculator;
+package com.lamorak99.calculator.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
